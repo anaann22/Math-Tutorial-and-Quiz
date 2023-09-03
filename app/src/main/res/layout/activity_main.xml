@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scaleType="centerCrop"
+        android:background="@drawable/back"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/quizIcon"
+            android:layout_width="157dp"
+            android:layout_height="169dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="124dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/calculating" />
+
+        <TextView
+            android:id="@+id/chooseTopic"
+            android:layout_width="81dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/quizIcon"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="10dp"
+            android:text="Alege :"
+            android:textColor="#99FFFFFF"
+            android:textSize="19sp" />
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/chooseTopic"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/cl5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/round_back_write10"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/study"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Clasa V-a"
+                    android:textColor="#CC000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cl6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/round_back_write10"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/study"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Clasa VI-a"
+                    android:textColor="#CC000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/layout1"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/cl7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/round_back_write10"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/study"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Clasa VII-a"
+                    android:textColor="#CC000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cl8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/round_back_write10"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/study"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Clasa VIII-a"
+                    android:textColor="#CC000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout2"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="22dp"
+            android:backgroundTint="@color/pudra_dark"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Start"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

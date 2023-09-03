@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MathApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".PDFBAR2021"
+            android:exported="false" />
+        <activity
+            android:name=".PDFEX2021"
+            android:exported="false" />
+        <activity
+            android:name=".PDFBAR2020"
+            android:exported="false" />
+        <activity
+            android:name=".PDFEX2020"
+            android:exported="false" />
+        <activity
+            android:name=".PDFBAR2019"
+            android:exported="false" />
+        <activity
+            android:name=".PDFEX2019"
+            android:exported="false" />
+        <activity
+            android:name=".PDFBAR2018"
+            android:exported="false" />
+        <activity
+            android:name=".PDFEX2018"
+            android:exported="false" />
+        <activity
+            android:name=".QuizSINCOS"
+            android:exported="false" />
+        <activity
+            android:name=".QuizPitagora"
+            android:exported="false" />
+        <activity
+            android:name=".QuizRadicali"
+            android:exported="false" />
+        <activity
+            android:name=".QuizGeometrie"
+            android:exported="false" />
+        <activity
+            android:name=".PDFSINCOS"
+            android:exported="false" />
+        <activity
+            android:name=".PDFPITAGORA"
+            android:exported="false" />
+        <activity
+            android:name=".PDFRADICALI"
+            android:exported="false" />
+        <activity
+            android:name=".TesteAc7"
+            android:exported="false" />
+        <activity
+            android:name=".PDFGEO7"
+            android:exported="false" />
+        <activity
+            android:name=".StudioAc7"
+            android:exported="false" />
+        <activity
+            android:name=".PDFNUMNEG"
+            android:exported="false" />
+        <activity
+            android:name=".StudioAc6"
+            android:exported="false" />
+        <activity
+            android:name=".PDFCERC"
+            android:exported="false" />
+        <activity
+            android:name=".PDFECUATII"
+            android:exported="false" />
+        <activity
+            android:name=".PDFTRIUNGHI6"
+            android:exported="false" />
+        <activity
+            android:name=".QuizCerc"
+            android:exported="false" />
+        <activity
+            android:name=".QuizTriunghi"
+            android:exported="false" />
+        <activity
+            android:name=".QuizLinii"
+            android:exported="false" />
+        <activity
+            android:name=".QuizEcuatii"
+            android:exported="false" />
+        <activity
+            android:name=".QuizActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".TesteAc6"
+            android:exported="false" />
+        <activity
+            android:name=".CL6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".LiniiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PDFLINII"
+            android:exported="false" />
+        <activity
+            android:name=".QuizZecimal5"
+            android:exported="false" />
+        <activity
+            android:name=".PDFZECAC5"
+            android:exported="false" />
+        <activity
+            android:name=".PDFFRACTII"
+            android:exported="false" />
+        <activity
+            android:name=".ScoreActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TesteAc5"
+            android:exported="true" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PDFEXREZ5Acti"
+            android:exported="true" />
+        <activity
+            android:name=".CL7Activity"
+            android:exported="true" />
+        <activity
+            android:name=".CL8Activity"
+            android:exported="true" />
+        <activity
+            android:name=".StudiuAc5"
+            android:exported="true" />
+        <activity
+            android:name=".CL5Activity"
+            android:exported="true" />
+        <activity
+            android:name=".StartA"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/download"
+    tools:context=".ScoreActivity">
+
+    <ImageView
+        android:id="@+id/quizIcon"
+        android:layout_width="297dp"
+        android:layout_height="287dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/finish" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="#545B77"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:text="Scor: 0" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Înapoi"
+        android:backgroundTint="@color/pudra_dark"
+        android:padding="10dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
